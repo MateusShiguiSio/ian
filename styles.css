@@ -1,0 +1,117 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #000; /* Preto */
+    padding: 20px;
+    color: #FFD700; /* Amarelo */
+    text-align: center;
+}
+
+header .logo p {
+    font-size: 0.9em;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Amarelo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ccc; /* Cinza claro */
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #000; /* Preto */
+}
+
+.hero p {
+    color: #333; /* Cinza escuro */
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #FFD700; /* Amarelo */
+    color: black; /* Preto */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para as abas */
+.tabs {
+    display: flex;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #ccc; /* Cinza */
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.tab.active {
+    background-color: #FFD700; /* Amarelo */
+    color: black;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Cinza claro */
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f8f8; /* Cinza claro */
+}
+
+.feature {
+    max-width: 30%;
+    text-align: center;
+}
+
+footer {
+    background-color: #000; /* Preto */
+    padding: 10px;
+    color: #FFD700; /* Amarelo */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
